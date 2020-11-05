@@ -1,0 +1,290 @@
+,div,bu,date,overtime (hours),occupancy,online time,month,year
+0,WISE,WISE,2019-03-01,28.25,0.85,0.67,March,2019
+1,WISE,WISE,2019-04-01,24.16666667,0.82,0.66,April,2019
+2,WISE,WISE,2019-05-01,18.0,0.79,0.61,May,2019
+3,WISE,WISE,2019-06-01,17.5,0.82,0.56,June,2019
+4,WISE,WISE,2019-07-01,21.75,0.82,0.67,July,2019
+5,WISE,WISE,2019-08-01,7.5,0.8,0.65,August,2019
+6,WISE,WISE,2019-09-01,3.5,0.81,0.65,September,2019
+7,WISE,WISE,2019-10-01,4.75,0.79,0.65,October,2019
+8,WISE,WISE,2020-03-01,25.5,0.87,0.64,March,2020
+9,WISE,WISE,2020-04-01,21.75,0.92,0.67,April,2020
+10,WISE,WISE,2020-05-01,24.75,0.92,0.66,May,2020
+11,WISE,WISE,2020-06-01,20.5,0.92,0.64,June,2020
+12,WISE,WISE,2020-07-01,24.0,0.9,0.63,July,2020
+13,WISE,WISE,2020-08-01,24.0,0.89,0.62,August,2020
+14,WISE,WISE,2020-09-01,18.58333333,0.87,0.56,September,2020
+15,WISE,WISE,2020-10-01,22.0,0.83,0.62,October,2020
+16,WISE,WISE,2020-11-01,2.5,0.83,0.66,November,2020
+17,College Savings,CS - Direct Sold,2019-03-01,2.75,0.54,0.63,March,2019
+18,College Savings,CS - Direct Sold,2019-04-01,2.25,0.51,0.63,April,2019
+19,College Savings,CS - Direct Sold,2019-05-01,13.0,0.53,0.57,May,2019
+20,College Savings,CS - Direct Sold,2019-06-01,11.75,0.43,0.57,June,2019
+21,College Savings,CS - Direct Sold,2019-07-01,11.25,0.55,0.64,July,2019
+22,College Savings,CS - Direct Sold,2019-08-01,22.25,0.59,0.59,August,2019
+23,College Savings,CS - Direct Sold,2019-09-01,14.0,0.49,0.55,September,2019
+24,College Savings,CS - Direct Sold,2019-10-01,11.5,0.55,0.49,October,2019
+25,College Savings,CS - Direct Sold,2020-03-01,3.25,0.52,0.49,March,2020
+26,College Savings,CS - Direct Sold,2020-04-01,0.0,0.46,0.57,April,2020
+27,College Savings,CS - Direct Sold,2020-05-01,3.5,0.52,0.59,May,2020
+28,College Savings,CS - Direct Sold,2020-06-01,3.25,0.47,0.61,June,2020
+29,College Savings,CS - Direct Sold,2020-07-01,14.25,0.57,0.65,July,2020
+30,College Savings,CS - Direct Sold,2020-08-01,24.0,0.58,0.66,August,2020
+31,College Savings,CS - Direct Sold,2020-09-01,6.583333333,0.46,0.61,September,2020
+32,College Savings,CS - Direct Sold,2020-10-01,7.75,0.51,0.57,October,2020
+33,College Savings,CS - Direct Sold,2020-11-01,2.0,0.38,0.62,November,2020
+34,College Savings,CS - Intermediary,2019-03-01,2.75,0.66,0.63,March,2019
+35,College Savings,CS - Intermediary,2019-04-01,2.25,0.66,0.63,April,2019
+36,College Savings,CS - Intermediary,2019-05-01,13.0,0.66,0.57,May,2019
+37,College Savings,CS - Intermediary,2019-06-01,11.75,0.69,0.57,June,2019
+38,College Savings,CS - Intermediary,2019-07-01,24.25,0.73,0.67,July,2019
+39,College Savings,CS - Intermediary,2019-08-01,30.5,0.78,0.61,August,2019
+40,College Savings,CS - Intermediary,2019-09-01,16.75,0.68,0.59,September,2019
+41,College Savings,CS - Intermediary,2019-10-01,16.0,0.67,0.54,October,2019
+42,College Savings,CS - Intermediary,2020-03-01,1.25,0.67,0.59,March,2020
+43,College Savings,CS - Intermediary,2020-04-01,0.0,0.66,0.6,April,2020
+44,College Savings,CS - Intermediary,2020-05-01,1.5,0.66,0.62,May,2020
+45,College Savings,CS - Intermediary,2020-06-01,4.5,0.7,0.64,June,2020
+46,College Savings,CS - Intermediary,2020-07-01,24.0,0.64,0.71,July,2020
+47,College Savings,CS - Intermediary,2020-08-01,25.5,0.66,0.73,August,2020
+48,College Savings,CS - Intermediary,2020-09-01,5.0,0.58,0.68,September,2020
+49,College Savings,CS - Intermediary,2020-10-01,8.0,0.52,0.63,October,2020
+50,College Savings,CS - Intermediary,2020-11-01,2.0,0.46,0.53,November,2020
+51,RPS,Client Transactions,2019-03-01,21.81666667,,0.83,March,2019
+52,RPS,Client Transactions,2019-04-01,12.63333333,,0.78,April,2019
+53,RPS,Client Transactions,2019-05-01,3.666666667,,0.78,May,2019
+54,RPS,Client Transactions,2019-06-01,3.016666667,,0.78,June,2019
+55,RPS,Client Transactions,2019-07-01,8.55,,0.77,July,2019
+56,RPS,Client Transactions,2019-08-01,2.983333333,,0.83,August,2019
+57,RPS,Client Transactions,2019-09-01,6.05,,0.82,September,2019
+58,RPS,Client Transactions,2019-10-01,3.233333333,,0.86,October,2019
+59,RPS,Client Transactions,2020-03-01,4.1,,0.9,March,2020
+60,RPS,Client Transactions,2020-04-01,1.733333333,,0.89,April,2020
+61,RPS,Client Transactions,2020-05-01,3.516666667,,0.91,May,2020
+62,RPS,Client Transactions,2020-06-01,5.083333333,,0.91,June,2020
+63,RPS,Client Transactions,2020-07-01,5.133333333,,0.91,July,2020
+64,RPS,Client Transactions,2020-08-01,2.166666667,,0.89,August,2020
+65,RPS,Client Transactions,2020-09-01,8.233333333,,0.94,September,2020
+66,RPS,Client Transactions,2020-10-01,3.916666667,,0.92,October,2020
+67,RPS,Client Transactions,2020-11-01,0.25,,0.89,November,2020
+68,RPS,Participant Transactions,2019-03-01,48.91666667,,0.77,March,2019
+69,RPS,Participant Transactions,2019-04-01,38.78333333,,0.71,April,2019
+70,RPS,Participant Transactions,2019-05-01,40.98333333,,0.74,May,2019
+71,RPS,Participant Transactions,2019-06-01,35.66666667,,0.75,June,2019
+72,RPS,Participant Transactions,2019-07-01,38.55,,0.78,July,2019
+73,RPS,Participant Transactions,2019-08-01,29.31666667,,0.78,August,2019
+74,RPS,Participant Transactions,2019-09-01,19.91666667,,0.69,September,2019
+75,RPS,Participant Transactions,2019-10-01,19.18333333,,0.75,October,2019
+76,RPS,Participant Transactions,2020-03-01,22.2,,0.79,March,2020
+77,RPS,Participant Transactions,2020-04-01,30.86666667,,0.73,April,2020
+78,RPS,Participant Transactions,2020-05-01,27.56666667,,0.73,May,2020
+79,RPS,Participant Transactions,2020-06-01,15.95,,0.76,June,2020
+80,RPS,Participant Transactions,2020-07-01,13.36666667,,0.79,July,2020
+81,RPS,Participant Transactions,2020-08-01,12.06666667,,0.77,August,2020
+82,RPS,Participant Transactions,2020-09-01,17.31666667,,0.74,September,2020
+83,RPS,Participant Transactions,2020-10-01,16.28333333,,0.76,October,2020
+84,RPS,Participant Transactions,2020-11-01,3.116666667,,0.82,November,2020
+85,II Services and Operations,RAM,2019-03-01,24.0,,0.78,March,2019
+86,II Services and Operations,RAM,2019-04-01,14.0,,0.82,April,2019
+87,II Services and Operations,RAM,2019-05-01,18.5,,0.68,May,2019
+88,II Services and Operations,RAM,2019-06-01,15.0,,0.71,June,2019
+89,II Services and Operations,RAM,2019-07-01,33.25,,0.81,July,2019
+90,II Services and Operations,RAM,2019-08-01,28.25,,0.82,August,2019
+91,II Services and Operations,RAM,2019-09-01,34.0,,0.87,September,2019
+92,II Services and Operations,RAM,2019-10-01,26.5,,0.78,October,2019
+93,II Services and Operations,RAM,2020-03-01,14.0,,0.82,March,2020
+94,II Services and Operations,RAM,2020-04-01,0.5,,0.76,April,2020
+95,II Services and Operations,RAM,2020-05-01,0.5,,0.66,May,2020
+96,II Services and Operations,RAM,2020-06-01,10.25,,0.74,June,2020
+97,II Services and Operations,RAM,2020-07-01,22.5,,0.84,July,2020
+98,II Services and Operations,RAM,2020-08-01,27.5,,0.81,August,2020
+99,II Services and Operations,RAM,2020-09-01,32.75,,0.74,September,2020
+100,II Services and Operations,RAM,2020-10-01,6.5,,0.72,October,2020
+101,II Services and Operations,RAM,2020-11-01,0.0,,0.8,November,2020
+102,II Services and Operations,RIS,2019-03-01,15.0,0.86,0.57,March,2019
+103,II Services and Operations,RIS,2019-04-01,8.0,0.74,0.6,April,2019
+104,II Services and Operations,RIS,2019-05-01,1.0,0.74,0.47,May,2019
+105,II Services and Operations,RIS,2019-06-01,1.0,0.79,0.44,June,2019
+106,II Services and Operations,RIS,2019-07-01,22.0,0.88,0.48,July,2019
+107,II Services and Operations,RIS,2019-08-01,19.0,0.88,0.41,August,2019
+108,II Services and Operations,RIS,2019-09-01,17.5,0.87,0.45,September,2019
+109,II Services and Operations,RIS,2019-10-01,17.0,0.81,0.43,October,2019
+110,II Services and Operations,RIS,2020-03-01,21.0,0.87,0.56,March,2020
+111,II Services and Operations,RIS,2020-04-01,2.5,0.84,0.53,April,2020
+112,II Services and Operations,RIS,2020-05-01,0.0,0.85,0.51,May,2020
+113,II Services and Operations,RIS,2020-06-01,0.0,0.89,0.48,June,2020
+114,II Services and Operations,RIS,2020-07-01,4.0,0.77,0.51,July,2020
+115,II Services and Operations,RIS,2020-08-01,1.0,0.83,0.44,August,2020
+116,II Services and Operations,RIS,2020-09-01,10.0,0.8,0.44,September,2020
+117,II Services and Operations,RIS,2020-10-01,5.0,0.84,0.51,October,2020
+118,II Services and Operations,RIS,2020-11-01,1.5,0.92,0.53,November,2020
+119,II Services and Operations,RCS PHONES,2019-03-01,9.5,0.72,0.59,March,2019
+120,II Services and Operations,RCS PHONES,2019-04-01,7.5,0.77,0.63,April,2019
+121,II Services and Operations,RCS PHONES,2019-05-01,0.0,0.5,0.58,May,2019
+122,II Services and Operations,RCS PHONES,2019-06-01,1.5,0.51,0.56,June,2019
+123,II Services and Operations,RCS PHONES,2019-07-01,21.0,0.79,0.61,July,2019
+124,II Services and Operations,RCS PHONES,2019-08-01,18.5,0.75,0.6,August,2019
+125,II Services and Operations,RCS PHONES,2019-09-01,17.5,0.7,0.6,September,2019
+126,II Services and Operations,RCS PHONES,2019-10-01,16.0,0.75,0.61,October,2019
+127,II Services and Operations,RCS PHONES,2020-03-01,21.0,0.89,0.65,March,2020
+128,II Services and Operations,RCS PHONES,2020-04-01,2.5,0.76,0.68,April,2020
+129,II Services and Operations,RCS PHONES,2020-05-01,0.0,0.65,0.61,May,2020
+130,II Services and Operations,RCS PHONES,2020-06-01,0.0,0.75,0.63,June,2020
+131,II Services and Operations,RCS PHONES,2020-07-01,4.0,0.7,0.62,July,2020
+132,II Services and Operations,RCS PHONES,2020-08-01,1.0,0.78,0.52,August,2020
+133,II Services and Operations,RCS PHONES,2020-09-01,10.0,0.72,0.6,September,2020
+134,II Services and Operations,RCS PHONES,2020-10-01,5.0,0.71,0.61,October,2020
+135,II Services and Operations,RCS PHONES,2020-11-01,1.5,0.77,0.5,November,2020
+136,II Services and Operations,SCS,2019-03-01,24.0,0.84,0.51,March,2019
+137,II Services and Operations,SCS,2019-04-01,17.0,0.78,0.55,April,2019
+138,II Services and Operations,SCS,2019-05-01,2.0,0.71,0.49,May,2019
+139,II Services and Operations,SCS,2019-06-01,1.5,0.75,0.45,June,2019
+140,II Services and Operations,SCS,2019-07-01,21.5,0.84,0.46,July,2019
+141,II Services and Operations,SCS,2019-08-01,19.0,0.78,0.49,August,2019
+142,II Services and Operations,SCS,2019-09-01,18.0,0.79,0.48,September,2019
+143,II Services and Operations,SCS,2019-10-01,17.0,0.78,0.51,October,2019
+144,II Services and Operations,SCS,2020-03-01,21.5,0.89,0.59,March,2020
+145,II Services and Operations,SCS,2020-04-01,2.5,0.77,0.52,April,2020
+146,II Services and Operations,SCS,2020-05-01,0.0,0.68,0.54,May,2020
+147,II Services and Operations,SCS,2020-06-01,0.0,0.76,0.52,June,2020
+148,II Services and Operations,SCS,2020-07-01,4.0,0.67,0.52,July,2020
+149,II Services and Operations,SCS,2020-08-01,1.0,0.68,0.52,August,2020
+150,II Services and Operations,SCS,2020-09-01,10.0,0.7,0.53,September,2020
+151,II Services and Operations,SCS,2020-10-01,5.0,0.83,0.49,October,2020
+152,II Services and Operations,SCS,2020-11-01,1.5,0.83,0.51,November,2020
+153,Client Engagement,CE-Workplace High Value,2019-03-01,1.5,,0.61,March,2019
+154,Client Engagement,CE-Workplace High Value,2019-04-01,0.5,0.78,0.6,April,2019
+155,Client Engagement,CE-Workplace High Value,2019-05-01,0.0,0.49,0.65,May,2019
+156,Client Engagement,CE-Workplace High Value,2019-06-01,0.0,0.54,0.64,June,2019
+157,Client Engagement,CE-Workplace High Value,2019-07-01,1.0,0.62,0.63,July,2019
+158,Client Engagement,CE-Workplace High Value,2019-08-01,0.0,0.56,0.65,August,2019
+159,Client Engagement,CE-Workplace High Value,2019-09-01,0.0,0.57,0.64,September,2019
+160,Client Engagement,CE-Workplace High Value,2019-10-01,0.0,0.62,0.56,October,2019
+161,Client Engagement,CE-Workplace High Value,2020-03-01,14.5,0.72,0.54,March,2020
+162,Client Engagement,CE-Workplace High Value,2020-04-01,0.25,0.66,0.57,April,2020
+163,Client Engagement,CE-Workplace High Value,2020-05-01,1.0,0.73,0.5,May,2020
+164,Client Engagement,CE-Workplace High Value,2020-06-01,2.0,0.73,0.52,June,2020
+165,Client Engagement,CE-Workplace High Value,2020-07-01,8.0,0.75,0.52,July,2020
+166,Client Engagement,CE-Workplace High Value,2020-08-01,9.25,,0.53,August,2020
+167,Client Engagement,CE-Workplace High Value,2020-09-01,4.25,,0.54,September,2020
+168,Client Engagement,CE-Workplace High Value,2020-10-01,4.0,,0.52,October,2020
+169,Client Engagement,CE-Workplace High Value,2020-11-01,1.0,,0.59,November,2020
+170,Client Engagement,CE-Workplace Core,2019-03-01,3.5,0.59,0.48,March,2019
+171,Client Engagement,CE-Workplace Core,2019-04-01,8.5,0.68,0.4,April,2019
+172,Client Engagement,CE-Workplace Core,2019-05-01,1.0,0.58,0.45,May,2019
+173,Client Engagement,CE-Workplace Core,2019-06-01,1.0,0.56,0.54,June,2019
+174,Client Engagement,CE-Workplace Core,2019-07-01,1.0,0.62,0.5,July,2019
+175,Client Engagement,CE-Workplace Core,2019-08-01,1.5,0.56,0.49,August,2019
+176,Client Engagement,CE-Workplace Core,2019-09-01,5.75,0.67,0.49,September,2019
+177,Client Engagement,CE-Workplace Core,2019-10-01,6.0,0.69,0.5,October,2019
+178,Client Engagement,CE-Workplace Core,2020-03-01,16.75,0.8,0.48,March,2020
+179,Client Engagement,CE-Workplace Core,2020-04-01,0.5,0.73,0.48,April,2020
+180,Client Engagement,CE-Workplace Core,2020-05-01,3.75,0.71,0.47,May,2020
+181,Client Engagement,CE-Workplace Core,2020-06-01,3.5,0.77,0.46,June,2020
+182,Client Engagement,CE-Workplace Core,2020-07-01,8.75,0.86,0.48,July,2020
+183,Client Engagement,CE-Workplace Core,2020-08-01,14.0,,0.47,August,2020
+184,Client Engagement,CE-Workplace Core,2020-09-01,18.0,,0.49,September,2020
+185,Client Engagement,CE-Workplace Core,2020-10-01,5.75,,0.51,October,2020
+186,Client Engagement,CE-Workplace Core,2020-11-01,1.0,,0.58,November,2020
+187,Client Engagement,CE-Advice,2019-03-01,0.0,,0.37,March,2019
+188,Client Engagement,CE-Advice,2019-04-01,0.0,0.98,0.37,April,2019
+189,Client Engagement,CE-Advice,2019-05-01,0.0,0.34,0.3,May,2019
+190,Client Engagement,CE-Advice,2019-06-01,0.0,0.38,0.56,June,2019
+191,Client Engagement,CE-Advice,2019-07-01,0.0,0.44,0.56,July,2019
+192,Client Engagement,CE-Advice,2019-08-01,0.0,0.31,0.39,August,2019
+193,Client Engagement,CE-Advice,2019-09-01,0.0,0.3,0.46,September,2019
+194,Client Engagement,CE-Advice,2019-10-01,0.0,0.37,0.46,October,2019
+195,Client Engagement,CE-Advice,2020-03-01,9.25,0.54,0.52,March,2020
+196,Client Engagement,CE-Advice,2020-04-01,0.0,0.4,0.56,April,2020
+197,Client Engagement,CE-Advice,2020-05-01,0.0,0.29,0.59,May,2020
+198,Client Engagement,CE-Advice,2020-06-01,1.25,0.34,0.55,June,2020
+199,Client Engagement,CE-Advice,2020-07-01,0.0,0.47,0.54,July,2020
+200,Client Engagement,CE-Advice,2020-08-01,0.0,0.56,0.43,August,2020
+201,Client Engagement,CE-Advice,2020-09-01,0.0,0.49,0.41,September,2020
+202,Client Engagement,CE-Advice,2020-10-01,0.0,0.54,0.43,October,2020
+203,Client Engagement,CE-Advice,2020-11-01,0.0,0.57,0.41,November,2020
+204,Client Engagement,CE-PI Core,2019-03-01,1.5,1.0,0.52,March,2019
+205,Client Engagement,CE-PI Core,2019-04-01,0.5,0.96,0.57,April,2019
+206,Client Engagement,CE-PI Core,2019-05-01,0.0,0.6,0.55,May,2019
+207,Client Engagement,CE-PI Core,2019-06-01,0.0,0.52,0.49,June,2019
+208,Client Engagement,CE-PI Core,2019-07-01,6.25,0.65,0.42,July,2019
+209,Client Engagement,CE-PI Core,2019-08-01,5.5,0.52,0.41,August,2019
+210,Client Engagement,CE-PI Core,2019-09-01,3.0,0.46,0.4,September,2019
+211,Client Engagement,CE-PI Core,2019-10-01,2.0,0.47,0.46,October,2019
+212,Client Engagement,CE-PI Core,2020-03-01,16.5,0.76,0.51,March,2020
+213,Client Engagement,CE-PI Core,2020-04-01,0.25,0.6,0.54,April,2020
+214,Client Engagement,CE-PI Core,2020-05-01,1.0,0.47,0.54,May,2020
+215,Client Engagement,CE-PI Core,2020-06-01,0.0,0.5,0.51,June,2020
+216,Client Engagement,CE-PI Core,2020-07-01,3.0,0.6,0.49,July,2020
+217,Client Engagement,CE-PI Core,2020-08-01,6.0,,0.44,August,2020
+218,Client Engagement,CE-PI Core,2020-09-01,0.0,,0.46,September,2020
+219,Client Engagement,CE-PI Core,2020-10-01,3.0,,0.45,October,2020
+220,Client Engagement,CE-PI Core,2020-11-01,1.0,,0.39,November,2020
+221,Client Engagement,CE-PI High Value,2019-03-01,2.0,,0.66,March,2019
+222,Client Engagement,CE-PI High Value,2019-04-01,1.0,0.3,0.68,April,2019
+223,Client Engagement,CE-PI High Value,2019-05-01,0.0,0.36,0.71,May,2019
+224,Client Engagement,CE-PI High Value,2019-06-01,0.0,0.48,0.64,June,2019
+225,Client Engagement,CE-PI High Value,2019-07-01,10.5,0.65,0.55,July,2019
+226,Client Engagement,CE-PI High Value,2019-08-01,10.75,0.55,0.52,August,2019
+227,Client Engagement,CE-PI High Value,2019-09-01,2.0,0.5,0.63,September,2019
+228,Client Engagement,CE-PI High Value,2019-10-01,2.5,0.38,0.55,October,2019
+229,Client Engagement,CE-PI High Value,2020-03-01,18.5,0.67,0.58,March,2020
+230,Client Engagement,CE-PI High Value,2020-04-01,0.25,0.43,0.65,April,2020
+231,Client Engagement,CE-PI High Value,2020-05-01,0.0,0.34,0.66,May,2020
+232,Client Engagement,CE-PI High Value,2020-06-01,1.5,0.4,0.62,June,2020
+233,Client Engagement,CE-PI High Value,2020-07-01,8.25,0.41,0.59,July,2020
+234,Client Engagement,CE-PI High Value,2020-08-01,7.5,,0.57,August,2020
+235,Client Engagement,CE-PI High Value,2020-09-01,1.5,,0.58,September,2020
+236,Client Engagement,CE-PI High Value,2020-10-01,3.0,,0.56,October,2020
+237,Client Engagement,CE-PI High Value,2020-11-01,1.0,,0.62,November,2020
+238,Client Engagement,CE-PI Acquisition,2019-03-01,3.0,,0.62,March,2019
+239,Client Engagement,CE-PI Acquisition,2019-04-01,3.0,0.91,0.68,April,2019
+240,Client Engagement,CE-PI Acquisition,2019-05-01,0.0,0.59,0.69,May,2019
+241,Client Engagement,CE-PI Acquisition,2019-06-01,0.0,0.75,0.61,June,2019
+242,Client Engagement,CE-PI Acquisition,2019-07-01,5.5,0.87,0.61,July,2019
+243,Client Engagement,CE-PI Acquisition,2019-08-01,0.5,0.8,0.68,August,2019
+244,Client Engagement,CE-PI Acquisition,2019-09-01,0.5,0.79,0.71,September,2019
+245,Client Engagement,CE-PI Acquisition,2019-10-01,1.0,0.76,0.69,October,2019
+246,Client Engagement,CE-PI Acquisition,2020-03-01,13.5,0.9,0.56,March,2020
+247,Client Engagement,CE-PI Acquisition,2020-04-01,0.0,0.79,0.67,April,2020
+248,Client Engagement,CE-PI Acquisition,2020-05-01,0.0,0.75,0.67,May,2020
+249,Client Engagement,CE-PI Acquisition,2020-06-01,0.0,0.79,0.65,June,2020
+250,Client Engagement,CE-PI Acquisition,2020-07-01,0.0,0.83,0.58,July,2020
+251,Client Engagement,CE-PI Acquisition,2020-08-01,4.0,,0.5,August,2020
+252,Client Engagement,CE-PI Acquisition,2020-09-01,0.5,,0.52,September,2020
+253,Client Engagement,CE-PI Acquisition,2020-10-01,3.0,,0.55,October,2020
+254,Client Engagement,CE-PI Acquisition,2020-11-01,1.0,,0.58,November,2020
+255,Central Services,COSS,2019-03-01,4.5,,0.68,March,2019
+256,Central Services,COSS,2019-04-01,9.25,,0.72,April,2019
+257,Central Services,COSS,2019-05-01,15.16666667,,0.71,May,2019
+258,Central Services,COSS,2019-06-01,10.75,,0.75,June,2019
+259,Central Services,COSS,2019-07-01,13.75,,0.76,July,2019
+260,Central Services,COSS,2019-08-01,11.5,,0.71,August,2019
+261,Central Services,COSS,2019-09-01,11.75,,0.71,September,2019
+262,Central Services,COSS,2019-10-01,11.0,,0.7,October,2019
+263,Central Services,COSS,2020-03-01,20.0,,0.65,March,2020
+264,Central Services,COSS,2020-04-01,6.75,,0.69,April,2020
+265,Central Services,COSS,2020-05-01,6.75,,0.67,May,2020
+266,Central Services,COSS,2020-06-01,11.25,,0.67,June,2020
+267,Central Services,COSS,2020-07-01,19.75,,0.67,July,2020
+268,Central Services,COSS,2020-08-01,14.25,,0.64,August,2020
+269,Central Services,COSS,2020-09-01,22.25,,0.67,September,2020
+270,Central Services,COSS,2020-10-01,11.58333333,,0.67,October,2020
+271,Central Services,COSS,2020-11-01,3.75,,0.76,November,2020
+272,Central Services,SCG,2019-03-01,14.5,,0.59,March,2019
+273,Central Services,SCG,2019-04-01,15.0,,0.57,April,2019
+274,Central Services,SCG,2019-05-01,8.0,,0.52,May,2019
+275,Central Services,SCG,2019-06-01,6.0,,0.51,June,2019
+276,Central Services,SCG,2019-07-01,22.0,,0.56,July,2019
+277,Central Services,SCG,2019-08-01,20.0,,0.56,August,2019
+278,Central Services,SCG,2019-09-01,15.0,,0.57,September,2019
+279,Central Services,SCG,2019-10-01,2.0,,0.5,October,2019
+280,Central Services,SCG,2020-03-01,27.0,,0.7,March,2020
+281,Central Services,SCG,2020-04-01,19.0,,0.73,April,2020
+282,Central Services,SCG,2020-05-01,3.0,,0.65,May,2020
+283,Central Services,SCG,2020-06-01,2.0,,0.66,June,2020
+284,Central Services,SCG,2020-07-01,13.0,,0.72,July,2020
+285,Central Services,SCG,2020-08-01,2.0,,0.65,August,2020
+286,Central Services,SCG,2020-09-01,4.0,,0.66,September,2020
+287,Central Services,SCG,2020-10-01,9.0,,0.62,October,2020
+288,Central Services,SCG,2020-11-01,2.0,,0.64,November,2020
