@@ -1,0 +1,272 @@
+,div,bu,ot,occupancy,online_time,month,year
+0,WISE,WISE,24.16666667,0.82,0.66,4,2019
+1,WISE,WISE,18.0,0.79,0.61,5,2019
+2,WISE,WISE,17.5,0.82,0.56,6,2019
+3,WISE,WISE,21.75,0.82,0.67,7,2019
+4,WISE,WISE,7.5,0.8,0.65,8,2019
+5,WISE,WISE,3.5,0.81,0.65,9,2019
+6,WISE,WISE,4.75,0.79,0.65,10,2019
+7,WISE,WISE,25.5,0.87,0.64,3,2020
+8,WISE,WISE,21.75,0.92,0.67,4,2020
+9,WISE,WISE,24.75,0.92,0.66,5,2020
+10,WISE,WISE,20.5,0.92,0.64,6,2020
+11,WISE,WISE,24.0,0.9,0.63,7,2020
+12,WISE,WISE,24.0,0.89,0.62,8,2020
+13,WISE,WISE,18.58333333,0.87,0.56,9,2020
+14,WISE,WISE,22.0,0.83,0.62,10,2020
+16,College Savings,CS - Direct Sold,2.75,0.54,0.63,3,2019
+17,College Savings,CS - Direct Sold,2.25,0.51,0.63,4,2019
+18,College Savings,CS - Direct Sold,13.0,0.53,0.57,5,2019
+19,College Savings,CS - Direct Sold,11.75,0.43,0.57,6,2019
+20,College Savings,CS - Direct Sold,11.25,0.55,0.64,7,2019
+21,College Savings,CS - Direct Sold,22.25,0.59,0.59,8,2019
+22,College Savings,CS - Direct Sold,14.0,0.49,0.55,9,2019
+23,College Savings,CS - Direct Sold,11.5,0.55,0.49,10,2019
+24,College Savings,CS - Direct Sold,3.25,0.52,0.49,3,2020
+25,College Savings,CS - Direct Sold,0.0,0.46,0.57,4,2020
+26,College Savings,CS - Direct Sold,3.5,0.52,0.59,5,2020
+27,College Savings,CS - Direct Sold,3.25,0.47,0.61,6,2020
+28,College Savings,CS - Direct Sold,14.25,0.57,0.65,7,2020
+29,College Savings,CS - Direct Sold,24.0,0.58,0.66,8,2020
+30,College Savings,CS - Direct Sold,6.583333333,0.46,0.61,9,2020
+31,College Savings,CS - Direct Sold,7.75,0.51,0.57,10,2020
+33,College Savings,CS - Intermediary,2.75,0.66,0.63,3,2019
+34,College Savings,CS - Intermediary,2.25,0.66,0.63,4,2019
+35,College Savings,CS - Intermediary,13.0,0.66,0.57,5,2019
+36,College Savings,CS - Intermediary,11.75,0.69,0.57,6,2019
+37,College Savings,CS - Intermediary,24.25,0.73,0.67,7,2019
+38,College Savings,CS - Intermediary,30.5,0.78,0.61,8,2019
+39,College Savings,CS - Intermediary,16.75,0.68,0.59,9,2019
+40,College Savings,CS - Intermediary,16.0,0.67,0.54,10,2019
+41,College Savings,CS - Intermediary,1.25,0.67,0.59,3,2020
+42,College Savings,CS - Intermediary,0.0,0.66,0.6,4,2020
+43,College Savings,CS - Intermediary,1.5,0.66,0.62,5,2020
+44,College Savings,CS - Intermediary,4.5,0.7,0.64,6,2020
+45,College Savings,CS - Intermediary,24.0,0.64,0.71,7,2020
+46,College Savings,CS - Intermediary,25.5,0.66,0.73,8,2020
+47,College Savings,CS - Intermediary,5.0,0.58,0.68,9,2020
+48,College Savings,CS - Intermediary,8.0,0.52,0.63,10,2020
+50,RPS,Client Transactions,21.81666667,,0.83,3,2019
+51,RPS,Client Transactions,12.63333333,,0.78,4,2019
+52,RPS,Client Transactions,3.666666667,,0.78,5,2019
+53,RPS,Client Transactions,3.016666667,,0.78,6,2019
+54,RPS,Client Transactions,8.55,,0.77,7,2019
+55,RPS,Client Transactions,2.983333333,,0.83,8,2019
+56,RPS,Client Transactions,6.05,,0.82,9,2019
+57,RPS,Client Transactions,3.233333333,,0.86,10,2019
+58,RPS,Client Transactions,4.1,,0.9,3,2020
+59,RPS,Client Transactions,1.733333333,,0.89,4,2020
+60,RPS,Client Transactions,3.516666667,,0.91,5,2020
+61,RPS,Client Transactions,5.083333333,,0.91,6,2020
+62,RPS,Client Transactions,5.133333333,,0.91,7,2020
+63,RPS,Client Transactions,2.166666667,,0.89,8,2020
+64,RPS,Client Transactions,8.233333333,,0.94,9,2020
+65,RPS,Client Transactions,3.916666667,,0.92,10,2020
+67,RPS,Participant Transactions,48.91666667,,0.77,3,2019
+68,RPS,Participant Transactions,38.78333333,,0.71,4,2019
+69,RPS,Participant Transactions,40.98333333,,0.74,5,2019
+70,RPS,Participant Transactions,35.66666667,,0.75,6,2019
+71,RPS,Participant Transactions,38.55,,0.78,7,2019
+72,RPS,Participant Transactions,29.31666667,,0.78,8,2019
+73,RPS,Participant Transactions,19.91666667,,0.69,9,2019
+74,RPS,Participant Transactions,19.18333333,,0.75,10,2019
+75,RPS,Participant Transactions,22.2,,0.79,3,2020
+76,RPS,Participant Transactions,30.86666667,,0.73,4,2020
+77,RPS,Participant Transactions,27.56666667,,0.73,5,2020
+78,RPS,Participant Transactions,15.95,,0.76,6,2020
+79,RPS,Participant Transactions,13.36666667,,0.79,7,2020
+80,RPS,Participant Transactions,12.06666667,,0.77,8,2020
+81,RPS,Participant Transactions,17.31666667,,0.74,9,2020
+82,RPS,Participant Transactions,16.28333333,,0.76,10,2020
+84,II Services and Operations,RAM,24.0,,0.78,3,2019
+85,II Services and Operations,RAM,14.0,,0.82,4,2019
+86,II Services and Operations,RAM,18.5,,0.68,5,2019
+87,II Services and Operations,RAM,15.0,,0.71,6,2019
+88,II Services and Operations,RAM,33.25,,0.81,7,2019
+89,II Services and Operations,RAM,28.25,,0.82,8,2019
+90,II Services and Operations,RAM,34.0,,0.87,9,2019
+91,II Services and Operations,RAM,26.5,,0.78,10,2019
+92,II Services and Operations,RAM,14.0,,0.82,3,2020
+93,II Services and Operations,RAM,0.5,,0.76,4,2020
+94,II Services and Operations,RAM,0.5,,0.66,5,2020
+95,II Services and Operations,RAM,10.25,,0.74,6,2020
+96,II Services and Operations,RAM,22.5,,0.84,7,2020
+97,II Services and Operations,RAM,27.5,,0.81,8,2020
+98,II Services and Operations,RAM,32.75,,0.74,9,2020
+99,II Services and Operations,RAM,6.5,,0.72,10,2020
+101,II Services and Operations,RIS,15.0,0.86,0.57,3,2019
+102,II Services and Operations,RIS,8.0,0.74,0.6,4,2019
+103,II Services and Operations,RIS,1.0,0.74,0.47,5,2019
+104,II Services and Operations,RIS,1.0,0.79,0.44,6,2019
+105,II Services and Operations,RIS,22.0,0.88,0.48,7,2019
+106,II Services and Operations,RIS,19.0,0.88,0.41,8,2019
+107,II Services and Operations,RIS,17.5,0.87,0.45,9,2019
+108,II Services and Operations,RIS,17.0,0.81,0.43,10,2019
+109,II Services and Operations,RIS,21.0,0.87,0.56,3,2020
+110,II Services and Operations,RIS,2.5,0.84,0.53,4,2020
+111,II Services and Operations,RIS,0.0,0.85,0.51,5,2020
+112,II Services and Operations,RIS,0.0,0.89,0.48,6,2020
+113,II Services and Operations,RIS,4.0,0.77,0.51,7,2020
+114,II Services and Operations,RIS,1.0,0.83,0.44,8,2020
+115,II Services and Operations,RIS,10.0,0.8,0.44,9,2020
+116,II Services and Operations,RIS,5.0,0.84,0.51,10,2020
+118,II Services and Operations,RCS PHONES,9.5,0.72,0.59,3,2019
+119,II Services and Operations,RCS PHONES,7.5,0.77,0.63,4,2019
+120,II Services and Operations,RCS PHONES,0.0,0.5,0.58,5,2019
+121,II Services and Operations,RCS PHONES,1.5,0.51,0.56,6,2019
+122,II Services and Operations,RCS PHONES,21.0,0.79,0.61,7,2019
+123,II Services and Operations,RCS PHONES,18.5,0.75,0.6,8,2019
+124,II Services and Operations,RCS PHONES,17.5,0.7,0.6,9,2019
+125,II Services and Operations,RCS PHONES,16.0,0.75,0.61,10,2019
+126,II Services and Operations,RCS PHONES,21.0,0.89,0.65,3,2020
+127,II Services and Operations,RCS PHONES,2.5,0.76,0.68,4,2020
+128,II Services and Operations,RCS PHONES,0.0,0.65,0.61,5,2020
+129,II Services and Operations,RCS PHONES,0.0,0.75,0.63,6,2020
+130,II Services and Operations,RCS PHONES,4.0,0.7,0.62,7,2020
+131,II Services and Operations,RCS PHONES,1.0,0.78,0.52,8,2020
+132,II Services and Operations,RCS PHONES,10.0,0.72,0.6,9,2020
+133,II Services and Operations,RCS PHONES,5.0,0.71,0.61,10,2020
+135,II Services and Operations,SCS,24.0,0.84,0.51,3,2019
+136,II Services and Operations,SCS,17.0,0.78,0.55,4,2019
+137,II Services and Operations,SCS,2.0,0.71,0.49,5,2019
+138,II Services and Operations,SCS,1.5,0.75,0.45,6,2019
+139,II Services and Operations,SCS,21.5,0.84,0.46,7,2019
+140,II Services and Operations,SCS,19.0,0.78,0.49,8,2019
+141,II Services and Operations,SCS,18.0,0.79,0.48,9,2019
+142,II Services and Operations,SCS,17.0,0.78,0.51,10,2019
+143,II Services and Operations,SCS,21.5,0.89,0.59,3,2020
+144,II Services and Operations,SCS,2.5,0.77,0.52,4,2020
+145,II Services and Operations,SCS,0.0,0.68,0.54,5,2020
+146,II Services and Operations,SCS,0.0,0.76,0.52,6,2020
+147,II Services and Operations,SCS,4.0,0.67,0.52,7,2020
+148,II Services and Operations,SCS,1.0,0.68,0.52,8,2020
+149,II Services and Operations,SCS,10.0,0.7,0.53,9,2020
+150,II Services and Operations,SCS,5.0,0.83,0.49,10,2020
+152,Client Engagement,CE-Workplace High Value,1.5,,0.61,3,2019
+153,Client Engagement,CE-Workplace High Value,0.5,0.78,0.6,4,2019
+154,Client Engagement,CE-Workplace High Value,0.0,0.49,0.65,5,2019
+155,Client Engagement,CE-Workplace High Value,0.0,0.54,0.64,6,2019
+156,Client Engagement,CE-Workplace High Value,1.0,0.62,0.63,7,2019
+157,Client Engagement,CE-Workplace High Value,0.0,0.56,0.65,8,2019
+158,Client Engagement,CE-Workplace High Value,0.0,0.57,0.64,9,2019
+159,Client Engagement,CE-Workplace High Value,0.0,0.62,0.56,10,2019
+160,Client Engagement,CE-Workplace High Value,14.5,0.72,0.54,3,2020
+161,Client Engagement,CE-Workplace High Value,0.25,0.66,0.57,4,2020
+162,Client Engagement,CE-Workplace High Value,1.0,0.73,0.5,5,2020
+163,Client Engagement,CE-Workplace High Value,2.0,0.73,0.52,6,2020
+164,Client Engagement,CE-Workplace High Value,8.0,0.75,0.52,7,2020
+165,Client Engagement,CE-Workplace High Value,9.25,,0.53,8,2020
+166,Client Engagement,CE-Workplace High Value,4.25,,0.54,9,2020
+167,Client Engagement,CE-Workplace High Value,4.0,,0.52,10,2020
+169,Client Engagement,CE-Workplace Core,3.5,0.59,0.48,3,2019
+170,Client Engagement,CE-Workplace Core,8.5,0.68,0.4,4,2019
+171,Client Engagement,CE-Workplace Core,1.0,0.58,0.45,5,2019
+172,Client Engagement,CE-Workplace Core,1.0,0.56,0.54,6,2019
+173,Client Engagement,CE-Workplace Core,1.0,0.62,0.5,7,2019
+174,Client Engagement,CE-Workplace Core,1.5,0.56,0.49,8,2019
+175,Client Engagement,CE-Workplace Core,5.75,0.67,0.49,9,2019
+176,Client Engagement,CE-Workplace Core,6.0,0.69,0.5,10,2019
+177,Client Engagement,CE-Workplace Core,16.75,0.8,0.48,3,2020
+178,Client Engagement,CE-Workplace Core,0.5,0.73,0.48,4,2020
+179,Client Engagement,CE-Workplace Core,3.75,0.71,0.47,5,2020
+180,Client Engagement,CE-Workplace Core,3.5,0.77,0.46,6,2020
+181,Client Engagement,CE-Workplace Core,8.75,0.86,0.48,7,2020
+182,Client Engagement,CE-Workplace Core,14.0,,0.47,8,2020
+183,Client Engagement,CE-Workplace Core,18.0,,0.49,9,2020
+184,Client Engagement,CE-Workplace Core,5.75,,0.51,10,2020
+186,Client Engagement,CE-Advice,0.0,,0.37,3,2019
+187,Client Engagement,CE-Advice,0.0,0.98,0.37,4,2019
+188,Client Engagement,CE-Advice,0.0,0.34,0.3,5,2019
+189,Client Engagement,CE-Advice,0.0,0.38,0.56,6,2019
+190,Client Engagement,CE-Advice,0.0,0.44,0.56,7,2019
+191,Client Engagement,CE-Advice,0.0,0.31,0.39,8,2019
+192,Client Engagement,CE-Advice,0.0,0.3,0.46,9,2019
+193,Client Engagement,CE-Advice,0.0,0.37,0.46,10,2019
+194,Client Engagement,CE-Advice,9.25,0.54,0.52,3,2020
+195,Client Engagement,CE-Advice,0.0,0.4,0.56,4,2020
+196,Client Engagement,CE-Advice,0.0,0.29,0.59,5,2020
+197,Client Engagement,CE-Advice,1.25,0.34,0.55,6,2020
+198,Client Engagement,CE-Advice,0.0,0.47,0.54,7,2020
+199,Client Engagement,CE-Advice,0.0,0.56,0.43,8,2020
+200,Client Engagement,CE-Advice,0.0,0.49,0.41,9,2020
+201,Client Engagement,CE-Advice,0.0,0.54,0.43,10,2020
+203,Client Engagement,CE-PI Core,1.5,1.0,0.52,3,2019
+204,Client Engagement,CE-PI Core,0.5,0.96,0.57,4,2019
+205,Client Engagement,CE-PI Core,0.0,0.6,0.55,5,2019
+206,Client Engagement,CE-PI Core,0.0,0.52,0.49,6,2019
+207,Client Engagement,CE-PI Core,6.25,0.65,0.42,7,2019
+208,Client Engagement,CE-PI Core,5.5,0.52,0.41,8,2019
+209,Client Engagement,CE-PI Core,3.0,0.46,0.4,9,2019
+210,Client Engagement,CE-PI Core,2.0,0.47,0.46,10,2019
+211,Client Engagement,CE-PI Core,16.5,0.76,0.51,3,2020
+212,Client Engagement,CE-PI Core,0.25,0.6,0.54,4,2020
+213,Client Engagement,CE-PI Core,1.0,0.47,0.54,5,2020
+214,Client Engagement,CE-PI Core,0.0,0.5,0.51,6,2020
+215,Client Engagement,CE-PI Core,3.0,0.6,0.49,7,2020
+216,Client Engagement,CE-PI Core,6.0,,0.44,8,2020
+217,Client Engagement,CE-PI Core,0.0,,0.46,9,2020
+218,Client Engagement,CE-PI Core,3.0,,0.45,10,2020
+220,Client Engagement,CE-PI High Value,2.0,,0.66,3,2019
+221,Client Engagement,CE-PI High Value,1.0,0.3,0.68,4,2019
+222,Client Engagement,CE-PI High Value,0.0,0.36,0.71,5,2019
+223,Client Engagement,CE-PI High Value,0.0,0.48,0.64,6,2019
+224,Client Engagement,CE-PI High Value,10.5,0.65,0.55,7,2019
+225,Client Engagement,CE-PI High Value,10.75,0.55,0.52,8,2019
+226,Client Engagement,CE-PI High Value,2.0,0.5,0.63,9,2019
+227,Client Engagement,CE-PI High Value,2.5,0.38,0.55,10,2019
+228,Client Engagement,CE-PI High Value,18.5,0.67,0.58,3,2020
+229,Client Engagement,CE-PI High Value,0.25,0.43,0.65,4,2020
+230,Client Engagement,CE-PI High Value,0.0,0.34,0.66,5,2020
+231,Client Engagement,CE-PI High Value,1.5,0.4,0.62,6,2020
+232,Client Engagement,CE-PI High Value,8.25,0.41,0.59,7,2020
+233,Client Engagement,CE-PI High Value,7.5,,0.57,8,2020
+234,Client Engagement,CE-PI High Value,1.5,,0.58,9,2020
+235,Client Engagement,CE-PI High Value,3.0,,0.56,10,2020
+237,Client Engagement,CE-PI Acquisition,3.0,,0.62,3,2019
+238,Client Engagement,CE-PI Acquisition,3.0,0.91,0.68,4,2019
+239,Client Engagement,CE-PI Acquisition,0.0,0.59,0.69,5,2019
+240,Client Engagement,CE-PI Acquisition,0.0,0.75,0.61,6,2019
+241,Client Engagement,CE-PI Acquisition,5.5,0.87,0.61,7,2019
+242,Client Engagement,CE-PI Acquisition,0.5,0.8,0.68,8,2019
+243,Client Engagement,CE-PI Acquisition,0.5,0.79,0.71,9,2019
+244,Client Engagement,CE-PI Acquisition,1.0,0.76,0.69,10,2019
+245,Client Engagement,CE-PI Acquisition,13.5,0.9,0.56,3,2020
+246,Client Engagement,CE-PI Acquisition,0.0,0.79,0.67,4,2020
+247,Client Engagement,CE-PI Acquisition,0.0,0.75,0.67,5,2020
+248,Client Engagement,CE-PI Acquisition,0.0,0.79,0.65,6,2020
+249,Client Engagement,CE-PI Acquisition,0.0,0.83,0.58,7,2020
+250,Client Engagement,CE-PI Acquisition,4.0,,0.5,8,2020
+251,Client Engagement,CE-PI Acquisition,0.5,,0.52,9,2020
+252,Client Engagement,CE-PI Acquisition,3.0,,0.55,10,2020
+254,Central Services,COSS,4.5,,0.68,3,2019
+255,Central Services,COSS,9.25,,0.72,4,2019
+256,Central Services,COSS,15.16666667,,0.71,5,2019
+257,Central Services,COSS,10.75,,0.75,6,2019
+258,Central Services,COSS,13.75,,0.76,7,2019
+259,Central Services,COSS,11.5,,0.71,8,2019
+260,Central Services,COSS,11.75,,0.71,9,2019
+261,Central Services,COSS,11.0,,0.7,10,2019
+262,Central Services,COSS,20.0,,0.65,3,2020
+263,Central Services,COSS,6.75,,0.69,4,2020
+264,Central Services,COSS,6.75,,0.67,5,2020
+265,Central Services,COSS,11.25,,0.67,6,2020
+266,Central Services,COSS,19.75,,0.67,7,2020
+267,Central Services,COSS,14.25,,0.64,8,2020
+268,Central Services,COSS,22.25,,0.67,9,2020
+269,Central Services,COSS,11.58333333,,0.67,10,2020
+271,Central Services,SCG,14.5,,0.59,3,2019
+272,Central Services,SCG,15.0,,0.57,4,2019
+273,Central Services,SCG,8.0,,0.52,5,2019
+274,Central Services,SCG,6.0,,0.51,6,2019
+275,Central Services,SCG,22.0,,0.56,7,2019
+276,Central Services,SCG,20.0,,0.56,8,2019
+277,Central Services,SCG,15.0,,0.57,9,2019
+278,Central Services,SCG,2.0,,0.5,10,2019
+279,Central Services,SCG,27.0,,0.7,3,2020
+280,Central Services,SCG,19.0,,0.73,4,2020
+281,Central Services,SCG,3.0,,0.65,5,2020
+282,Central Services,SCG,2.0,,0.66,6,2020
+283,Central Services,SCG,13.0,,0.72,7,2020
+284,Central Services,SCG,2.0,,0.65,8,2020
+285,Central Services,SCG,4.0,,0.66,9,2020
+286,Central Services,SCG,9.0,,0.62,10,2020
