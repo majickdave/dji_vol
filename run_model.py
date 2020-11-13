@@ -5,11 +5,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import mean_absolute_error
 import sys
+import re
 
 file_name, kpi, start_train, end_train = (sys.argv[1], 
 sys.argv[2], 
 sys.argv[3], 
 sys.argv[4])
+
 
 def plot_time_vol(df):
     plt.subplot(221)
@@ -115,12 +117,42 @@ def validate_holidays(df):
 
 ## Start script
 # Load Data
+def get_col_names(df):
+    res = {}
+    for i, col in enumerate(df.columns):
 
+        p = re.compile(r'forecast', re.IGNORECASE) 
+        q = re.compile(r'time', re.IGNORECASE)
+        r = re.compile(r'volume', re.IGNORECASE)
+        d = re.compile(r'date', re.IGNORECASE)
+        fcst = p.search(col); time = q.search(col); vol = r.search(col); date = d.search(col)
 
-df = pd.read_csv(file_name, parse_dates=['date'],
-                index_col=['date'], usecols=range(5), header=1,
-                names=['date', 'handle_time', 'handle_time_forecast', 
-                       'volume','volume_forecast'])
+        if fcst:
+            if time:
+                res[col] = 'handle_time_forecast'
+            elif vol:
+                res[col] = 'volume_forecast'
+        elif time:
+            res[col] = 'handle_time'
+        elif vol:
+            res[col] = 'volume'
+        else:
+            res[col] = 'date'
+            
+    return res
+
+# df = pd.read_csv(file_name, parse_dates=['date'],
+#                 index_col=['date'], usecols=range(5), header=1,
+#                 names=['date', 'handle_time', 'handle_time_forecast', 
+#                        'volume','volume_forecast'])
+
+df = pd.read_csv(file_name)
+col_names = get_col_names(df)
+df.rename(columns=col_names, inplace=True)
+
+df['date'] = pd.to_datetime(df['date'])
+df.index = df['date']
+
 df1 = df.copy()
 h = pd.read_csv('holidays.csv')
 
@@ -171,4 +203,6 @@ if validate_dates(f, df2):
 else:
     print('invalid dates')
 
-print(forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']])
+df_out = forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']]
+df_out.to_csv('predictions'+'_'+file_name[:3] +'_'+kpi+'_'+start_train+'_'+end_train+'.csv', index=False)
+print(file_name[:3], df_out)
