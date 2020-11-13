@@ -196,6 +196,7 @@ df2 = df2[~df2.index.weekday.isin([5,6])]
 # Validate test data
 if validate_dates(f, df2):
     mae = evaluate_model(f, kpi, metric='mae')
+    print('\nMean Absolute Error')
     print(mae)
 #     display(pd.DataFrame(index=['old model', 'prophet', 'difference'], 
 #                  data=[int(mae1), int(mae2), int(mae1-mae2)],
@@ -205,4 +206,10 @@ else:
 
 df_out = forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']]
 df_out.to_csv('predictions'+'_'+file_name[:3] +'_'+kpi+'_'+start_train+'_'+end_train+'.csv', index=False)
-print(file_name[:3], df_out)
+print('division:', file_name[:3], 
+'kpi:',kpi, 'training starting on ', 
+start_train, 
+'ending on ',
+end_train)
+print(df1.max())
+print(df_out)
