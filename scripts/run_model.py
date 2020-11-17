@@ -146,15 +146,27 @@ def get_col_names(df):
 #                 names=['date', 'handle_time', 'handle_time_forecast', 
 #                        'volume','volume_forecast'])
 
-df = pd.read_csv(file_name)
+df = pd.read_csv('data/'+file_name)
+h = pd.read_csv('data/holidays.csv')
 col_names = get_col_names(df)
 df.rename(columns=col_names, inplace=True)
 
 df['date'] = pd.to_datetime(df['date'])
 df.index = df['date']
 
+# create column for aht
+df['aht'] = df['handle_time']/df['volume']
+
+df['aht_forecast'] = df['handle_time_forecast']/df['volume_forecast']
+
 df1 = df.copy()
-h = pd.read_csv('holidays.csv')
+
+
+# remove outliers
+df = df[df['handle_time'] > 100000]
+# df[df['volume'] < 4000]
+# df[df['aht']>300]
+# df[(df['handle_time'] > 2200000) & (df['handle_time'] < 6000000)]
 
 # remove holidays
 df = df[~df.index.isin(h.iloc[:,0].tolist())]
@@ -162,9 +174,6 @@ df = df[~df.index.isin(h.iloc[:,0].tolist())]
 # remove weekends
 df = df[~df.index.weekday.isin([5,6])]
 # print(validate_holidays(df))
-
-# remove outliers
-df = df[df['handle_time'] > 10000]
 
 # plot data
 # plot_time_vol(df)
@@ -205,11 +214,11 @@ else:
     print('invalid dates')
 
 df_out = forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']]
-df_out.to_csv('predictions'+'_'+file_name[:3] +'_'+kpi+'_'+start_train+'_'+end_train+'.csv', index=False)
+# df_out.to_csv('\data\predictions'+'_'+file_name[:3] +'_'+kpi+'_'+start_train+'_'+end_train+'.csv', index=False)
 print('division:', file_name[:3], 
 'kpi:',kpi, 'training starting on ', 
 start_train, 
 'ending on ',
 end_train)
-print(df1.max())
-print(df_out)
+# print(df1.max())
+# print(df_out)
