@@ -213,23 +213,35 @@ df2 = df2[~df2.index.isin(h.iloc[:,0].tolist())]
 df2 = df2[~df2.index.weekday.isin([5,6])]
 
 # Validate test data
-if validate_dates(f, df2):
-    mae = evaluate_model(f, kpi, metric='mae')
-    print('\nMean Absolute Error')
-    print(mae)
-#     display(pd.DataFrame(index=['old model', 'prophet', 'difference'], 
-#                  data=[int(mae1), int(mae2), int(mae1-mae2)],
-#                  columns=['MAE (volume)']))
-else:
-    print('invalid dates')
+def get_eval():
+    if validate_dates(f, df2):
+        mae = evaluate_model(f, kpi, metric='mae')
+        # print('\nMean Absolute Error')
+        # print(mae)
+    #     display(pd.DataFrame(index=['old model', 'prophet', 'difference'], 
+    #                  data=[int(mae1), int(mae2), int(mae1-mae2)],
+    #                  columns=['MAE (volume)']))
+    else:
+        return 'invalid dates'
+    return mae
 
-df_out = forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']]
-# df_out.to_csv('\data\preds'+'_'+file_name[:3] +'_'+kpi+'_'+start_train+'_'+end_train+'.csv', index=False)
+preds_out = forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']]
+# preds_out.to_csv('/data/preds')
 
 print('division:', file_name[:3], 
 'kpi:',kpi, 'training starting on ', 
 start_train, 
 'ending on ',
 end_train)
-# print(df1.max())
-# print(df_out)
+
+mae = get_eval()
+mae.update({'kpi': kpi, 'start_train':start_train, 'end_train': end_train}) 
+curr = pd.read_csv('preds.csv',index_col=0)
+new = pd.DataFrame(mae, index=[bu])
+
+if bu not in curr.index:
+    curr = pd.concat([curr, new], 0)
+elif new.loc[bu,'prophet'] < curr.loc[bu,'prophet']:
+    curr.update(new)
+print(curr)
+curr.to_csv('preds.csv')

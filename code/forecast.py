@@ -6,29 +6,6 @@ import re
 
 h = pd.read_csv('../data/holidays.csv')
 
-def get_col_names(df):
-    res = {}
-    for i, col in enumerate(df.columns):
-
-        p = re.compile(r'forecast', re.IGNORECASE) 
-        q = re.compile(r'time', re.IGNORECASE)
-        r = re.compile(r'volume', re.IGNORECASE)
-        d = re.compile(r'date', re.IGNORECASE)
-        fcst = p.search(col); time = q.search(col); vol = r.search(col); date = d.search(col)
-
-        if fcst:
-            if time:
-                res[col] = 'handle_time_forecast'
-            elif vol:
-                res[col] = 'volume_forecast'
-        elif time:
-            res[col] = 'handle_time'
-        elif vol:
-            res[col] = 'volume'
-        else:
-            res[col] = 'date'
-            
-    return res
 
 def plot_time_vol(df):
     plt.subplot(221)
@@ -126,3 +103,50 @@ def evaluate_model(forecast, kpi, metric='mae'):
         return {'old': mae1, 'prophet': mae2}
     else:
         return 'invalid metric'
+
+def validate_holidays(df):
+    # validate no weekends or holidays
+    return (df.index.weekday.isin([5,6]).any(),
+    df.index.isin(h.iloc[:,0].tolist()).any()) == (False, False)
+
+## Start script
+# Load Data
+def get_col_names(df):
+    res = {}
+    for i, col in enumerate(df.columns):
+
+        p = re.compile(r'forecast', re.IGNORECASE) 
+        q = re.compile(r'time', re.IGNORECASE)
+        r = re.compile(r'volume', re.IGNORECASE)
+        d = re.compile(r'date', re.IGNORECASE)
+        fcst = p.search(col); time = q.search(col); vol = r.search(col); date = d.search(col)
+
+        if fcst:
+            if time:
+                res[col] = 'handle_time_forecast'
+            elif vol:
+                res[col] = 'volume_forecast'
+        elif time:
+            res[col] = 'handle_time'
+        elif vol:
+            res[col] = 'volume'
+        else:
+            res[col] = 'date'
+            
+    return res
+
+def remove_outliers(df, bu):
+    if bu == 'ris':
+        df = df[df['handle_time'] > 100000]
+    elif bu == 'scs':
+        df = df[(df['handle_time'] > 500000) & (df['aht'] > 450)]
+    elif bu == 'wis':
+        df = df[(df['handle_time'] > 2000000) & (df['volume'] < 10000)]
+    elif bu == 'bro':
+        df = df[df['handle_time'] > 100000]
+        start_train = '2016-03-10'; end_train = '2020-06-01'
+    elif bu == 'psg':
+        df = df[(df['handle_time'] > 100000)]
+    elif bu == 'col':
+        df = df[(df['handle_time'] > 100000)]
+    return df
