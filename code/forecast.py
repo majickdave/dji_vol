@@ -4,7 +4,7 @@ from fbprophet import Prophet
 import pandas as pd
 import re
 
-h = pd.read_csv('holidays.csv')
+h = pd.read_csv('../data/holidays.csv')
 
 def get_col_names(df):
     res = {}

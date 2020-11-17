@@ -7,12 +7,6 @@ from sklearn.metrics import mean_absolute_error
 import sys
 import re
 
-file_name, kpi, start_train, end_train = (sys.argv[1], 
-sys.argv[2], 
-sys.argv[3], 
-sys.argv[4])
-
-
 def plot_time_vol(df):
     plt.subplot(221)
     df['handle_time'].plot.box()
@@ -141,10 +135,28 @@ def get_col_names(df):
             
     return res
 
+def remove_outliers(df, bu):
+    if bu == 'ris':
+        df = df[df['handle_time'] > 100000]
+    elif bu == 'scs':
+        df = df[(df['handle_time'] > 500000) & (df['aht'] > 450)]
+    elif bu == 'wis':
+        df = df[(df['handle_time'] > 2000000) & (df['volume'] < 10000)]
+    elif bu == 'bro':
+        df = df[df['handle_time'] > 100000]
+    elif bu == 'psg':
+        df = df[(df['handle_time'] > 100000)]
+    elif bu == 'col':
+        df = df[(df['handle_time'] > 100000)]
+    return df
+
 # df = pd.read_csv(file_name, parse_dates=['date'],
 #                 index_col=['date'], usecols=range(5), header=1,
 #                 names=['date', 'handle_time', 'handle_time_forecast', 
 #                        'volume','volume_forecast'])
+
+file_name, kpi, start_train, end_train, periods = (sys.argv[1], 
+sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
 
 df = pd.read_csv('data/'+file_name)
 h = pd.read_csv('data/holidays.csv')
@@ -163,10 +175,8 @@ df1 = df.copy()
 
 
 # remove outliers
-df = df[df['handle_time'] > 100000]
-# df[df['volume'] < 4000]
-# df[df['aht']>300]
-# df[(df['handle_time'] > 2200000) & (df['handle_time'] < 6000000)]
+bu = file_name[:3]
+df = remove_outliers(df, bu)
 
 # remove holidays
 df = df[~df.index.isin(h.iloc[:,0].tolist())]
@@ -183,7 +193,7 @@ df = create_training_data(df, kpi, start_train, end_train)
 
 # plot forecast
 # display(df.head())
-m,future = create_forecast(df)
+m,future = create_forecast(df, periods=int(periods))
 forecast = m.predict(future)
 # plot_forecast(forecast)
 
@@ -214,7 +224,8 @@ else:
     print('invalid dates')
 
 df_out = forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']]
-# df_out.to_csv('\data\predictions'+'_'+file_name[:3] +'_'+kpi+'_'+start_train+'_'+end_train+'.csv', index=False)
+# df_out.to_csv('\data\preds'+'_'+file_name[:3] +'_'+kpi+'_'+start_train+'_'+end_train+'.csv', index=False)
+
 print('division:', file_name[:3], 
 'kpi:',kpi, 'training starting on ', 
 start_train, 
