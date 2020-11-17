@@ -225,8 +225,7 @@ def get_eval():
         return 'invalid dates'
     return mae
 
-preds_out = forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']]
-# preds_out.to_csv('/data/preds')
+forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('preds/'+bu+'.csv')
 
 print('division:', file_name[:3], 
 'kpi:',kpi, 'training starting on ', 
@@ -236,7 +235,7 @@ end_train)
 
 mae = get_eval()
 mae.update({'kpi': kpi, 'start_train':start_train, 'end_train': end_train}) 
-curr = pd.read_csv('preds.csv',index_col=0)
+curr = pd.read_csv('score.csv',index_col=0)
 new = pd.DataFrame(mae, index=[bu])
 
 if bu not in curr.index:
@@ -244,4 +243,4 @@ if bu not in curr.index:
 elif new.loc[bu,'prophet'] < curr.loc[bu,'prophet']:
     curr.update(new)
 print(curr)
-curr.to_csv('preds.csv')
+curr.to_csv('score.csv')
