@@ -216,26 +216,15 @@ df2 = df2[~df2.index.weekday.isin([5,6])]
 def get_eval():
     if validate_dates(f, df2):
         mae = evaluate_model(f, kpi, metric='mae')
-        # print('\nMean Absolute Error')
-        # print(mae)
-    #     display(pd.DataFrame(index=['old model', 'prophet', 'difference'], 
-    #                  data=[int(mae1), int(mae2), int(mae1-mae2)],
-    #                  columns=['MAE (volume)']))
     else:
         return 'invalid dates'
     return mae
 
-forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('preds/'+bu+'.csv')
-
-print('division:', file_name[:3], 
-'kpi:',kpi, 'training starting on ', 
-start_train, 
-'ending on ',
-end_train)
+forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('preds/'+bu+'_'+kpi+'.csv')
 
 mae = get_eval()
 mae.update({'kpi': kpi, 'start_train':start_train, 'end_train': end_train}) 
-curr = pd.read_csv('score.csv',index_col=0)
+curr = pd.read_csv('scores/'+kpi+'_score.csv',index_col=0)
 new = pd.DataFrame(mae, index=[bu])
 
 if bu not in curr.index:
@@ -243,4 +232,4 @@ if bu not in curr.index:
 elif new.loc[bu,'prophet'] < curr.loc[bu,'prophet']:
     curr.update(new)
 print(curr)
-curr.to_csv('score.csv')
+curr.to_csv('scores/'+kpi+'_score.csv')
