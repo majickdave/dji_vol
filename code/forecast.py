@@ -4,7 +4,7 @@ from fbprophet import Prophet
 import pandas as pd
 import re
 
-h = pd.read_csv('../data/holidays.csv')
+h = pd.read_csv('./data/holidays.csv')
 
 
 def plot_time_vol(df):
@@ -87,7 +87,7 @@ def validate_dates(f, df2):
     # validate forecast dates shape equals actual dates shape
     v1 = df2.shape[0] == f.shape[0]
     if not v1:
-        return False
+        return 'different number of days'
     else: res.append(v1)
         
     # validate all dates for forecast equal actual dates
@@ -95,7 +95,7 @@ def validate_dates(f, df2):
     
     return all(res)
 
-def evaluate_model(forecast, kpi, metric='mae'):
+def evaluate_model(f,df2, kpi, metric='mae'):
     if metric == 'mae':
         mae1 = mean_absolute_error(df2[kpi], df2[kpi+'_forecast'])
         mae2 = mean_absolute_error(df2[kpi], f['yhat'])
@@ -144,7 +144,6 @@ def remove_outliers(df, bu):
         df = df[(df['handle_time'] > 2000000) & (df['volume'] < 10000)]
     elif bu == 'bro':
         df = df[df['handle_time'] > 100000]
-        start_train = '2016-03-10'; end_train = '2020-06-01'
     elif bu == 'psg':
         df = df[(df['handle_time'] > 100000)]
     elif bu == 'col':
