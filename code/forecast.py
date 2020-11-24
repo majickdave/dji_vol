@@ -136,16 +136,14 @@ def get_col_names(df):
     return res
 
 def remove_outliers(df, bu):
-    if bu == 'ris':
+    if bu in ['RIS_ah','RCS-PH']:
         df = df[df['handle_time'] > 100000]
-    elif bu == 'scs':
-        df = df[(df['handle_time'] > 500000) & (df['aht'] > 450)]
-    elif bu == 'wis':
+    # elif bu == 'scs':
+    #     df = df[(df['handle_time'] > 500000) & (df['aht'] > 450)]
+    elif bu == 'WISE-C':
         df = df[(df['handle_time'] > 2000000) & (df['volume'] < 10000)]
-    elif bu == 'bro':
+    elif bu in ['BRO-Co', 'BRO_ah', 'PSG_ah']:
         df = df[df['handle_time'] > 100000]
-    elif bu == 'psg':
-        df = df[(df['handle_time'] > 100000)]
-    elif bu == 'col':
+    elif bu[:2] == 'CS':
         df = df[(df['handle_time'] > 100000)]
     return df
