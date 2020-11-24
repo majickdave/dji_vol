@@ -173,7 +173,6 @@ def make_pred(file_name, kpi, start_train, end_train, periods=200):
 
     df1 = df.copy()
 
-
     # remove outliers
     bu = file_name[:6]
     df = remove_outliers(df, bu)
@@ -199,7 +198,7 @@ def make_pred(file_name, kpi, start_train, end_train, periods=200):
 
     # set forecast beginning and end date
     f = forecast.copy()
-    f = f[(forecast['ds'] >= end_train) & (f['ds'] <= df1.index.max())]
+    f = f[(forecast['ds'] > end_train) & (f['ds'] <= df1.index.max())]
 
     # create validation dataset
     df2 = df1.copy()
@@ -220,7 +219,7 @@ def make_pred(file_name, kpi, start_train, end_train, periods=200):
             return 'invalid dates'
         return mae
 
-    forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('preds/'+bu+'_'+kpi+'.csv')
+    f[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('preds/'+bu+'_'+kpi+'.csv')
 
     mae = get_eval()
 
