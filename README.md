@@ -1,6 +1,9 @@
 # Model Evaluation and Validation
 ## Project: Predicting handle time, volume, and aht
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/majickdave/dji_vol/blob/master/model%20all%20results.ipynb)
+
+
 ### Install
 
 This project requires **Python** and the following Python libraries installed:
