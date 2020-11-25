@@ -141,7 +141,7 @@ def remove_outliers(df, bu):
     # elif bu == 'scs':
     #     df = df[(df['handle_time'] > 500000) & (df['aht'] > 450)]
     elif bu == 'WISE-C':
-        df = df[(df['handle_time'] > 2000000) & (df['volume'] < 10000)]
+        df = df[(df['handle_time'] > 100000) & (df['volume'] < 1000)]
     elif bu in ['BRO-Co', 'BRO_ah', 'PSG_ah']:
         df = df[df['handle_time'] > 100000]
     elif bu[:2] == 'CS':
