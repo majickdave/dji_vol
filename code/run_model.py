@@ -76,7 +76,7 @@ def make_pred(file_name, kpi, start_train, end_train, periods=200):
             return 'invalid dates'
         return mae
 
-    f[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('preds/'+bu+'_'+kpi+'.csv')
+    forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('preds/'+bu+'_'+kpi+'.csv')
 
     mae = get_eval()
 
