@@ -12,15 +12,16 @@ from forecast import *
 
 h = pd.read_csv('./data/holidays.csv')
 
-def make_pred(file_name, kpi, start_train, end_train, periods=200):
-    df = pd.read_csv('./data/'+file_name, parse_dates=['date'])
+def get_pred_score(file_name, kpi, start_train, end_train, periods=365):
+    """
+    provide system arguments file_name, kpi, start_train, end_train, periods
+    write top scores to ./scores/ and predsictions to ./preds/ folders
+    """
+    names = ['date', 'handle_time', 'handle_time_forecast',
+    'volume', 'volume_forecast']
+    df = pd.read_csv('./data/'+file_name, names=names, header=1, index_col=0)
 
-    # col_names = get_col_names(df)
-    # df.rename(columns=col_names, inplace=True)
-
-    # df.index = df['date']
-    # df.index = pd.to_datetime(df['date'])
-
+    df['date'] = pd.to_datetime(df['date'])
     df.index = df['date']
 
     # create column for aht
@@ -67,7 +68,11 @@ def make_pred(file_name, kpi, start_train, end_train, periods=200):
     # remove weekends and holidays
     df2 = df2[~df2.index.isin(h.iloc[:,0].tolist())]
     df2 = df2[~df2.index.weekday.isin([5,6])]
-
+    if not os.path.exists('./preds/'+kpi):
+        os.mkdir('./preds/'+kpi)
+        return
+    forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('./preds/'+kpi+'/'+bu+'.csv')
+    
     # Validate test data
     def get_eval():
         if validate_dates(f, df2):
@@ -75,8 +80,6 @@ def make_pred(file_name, kpi, start_train, end_train, periods=200):
         else:
             return 'invalid dates'
         return mae
-
-    forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('preds/'+bu+'_'+kpi+'.csv')
 
     mae = get_eval()
 
@@ -88,6 +91,7 @@ def make_pred(file_name, kpi, start_train, end_train, periods=200):
 
         if bu not in curr.index:
             curr = pd.concat([curr, new], 0)
+        # create log everytime a score is superceded
         elif new.loc[bu,'prophet'] < curr.loc[bu,'prophet']:
             data = pd.concat([curr.loc[[bu],:],new.loc[[bu],:]],0)
             data.to_csv('./scores/logs/'+bu+'_'+kpi+'_'+datetime.datetime.now()
@@ -98,9 +102,17 @@ def make_pred(file_name, kpi, start_train, end_train, periods=200):
         return 'error with metric'
     print('\ntraining',file_name, 'on', kpi, 'start:',start_train, 'end:', end_train+'\n')
     print(curr.loc[bu,:])
-    
 
-# file_name, kpi, start_train, end_train, periods = (sys.argv[1], 
-# sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
 
-# make_pred(file_name, kpi, start_train, end_train, periods=200)
+# try:
+#     if sys.argv[1]: 
+#         file_name, kpi, start_train, end_train, periods = (sys.argv[1], 
+#         sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+#         get_pred_score(file_name, kpi, start_train, end_train, periods=200)
+#     else:
+#         pass
+# except:
+#     print("""
+#     wrong number of arguments, try providing these 5 args:
+#     file_name kpi start_train end_train periods
+#     """)

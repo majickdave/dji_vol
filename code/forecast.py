@@ -22,7 +22,6 @@ def plot_time_vol(df):
     plt.tight_layout()
     plt.show()
 
-
 def create_training_data(df, kpi, start_date, end_date):
     # create a new dataframe with 2 columns, date and actual volume received
     df['date'] = df.index
@@ -119,7 +118,8 @@ def get_col_names(df):
         q = re.compile(r'time', re.IGNORECASE)
         r = re.compile(r'volume', re.IGNORECASE)
         d = re.compile(r'date', re.IGNORECASE)
-        fcst = p.search(col); time = q.search(col); vol = r.search(col); date = d.search(col)
+        fcst = p.search(col); time = q.search(col); 
+        vol = r.search(col); date = d.search(col)
 
         if fcst:
             if time:
@@ -130,7 +130,7 @@ def get_col_names(df):
             res[col] = 'handle_time'
         elif vol:
             res[col] = 'volume'
-        else:
+        elif date:
             res[col] = 'date'
             
     return res
