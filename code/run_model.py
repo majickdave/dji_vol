@@ -15,8 +15,9 @@ h = pd.read_csv('./data/holidays.csv')
 def get_pred_score(file_name, kpi, start_train, end_train, periods=365):
     """
     provide system arguments file_name, kpi, start_train, end_train, periods
-    write top scores to ./scores/ and predsictions to ./preds/ folders
+    write top scores to ./scores/ and predictions to ./preds/ folders
     """
+    # set names for columns in order
     names = ['date', 'handle_time', 'handle_time_forecast',
     'volume', 'volume_forecast']
     df = pd.read_csv('./data/'+file_name, names=names, header=1, index_col=0)
@@ -26,13 +27,13 @@ def get_pred_score(file_name, kpi, start_train, end_train, periods=365):
 
     # create column for aht
     df['aht'] = df['handle_time']/df['volume']
-
     df['aht_forecast'] = df['handle_time_forecast']/df['volume_forecast']
-
     df1 = df.copy()
 
-    # remove outliers
+    # create business unit name
     bu = file_name[:6]
+
+    # # remove outliers if it helps the model
     # df = remove_outliers(df, bu)
 
     # remove holidays
@@ -40,18 +41,20 @@ def get_pred_score(file_name, kpi, start_train, end_train, periods=365):
 
     # remove weekends
     df = df[~df.index.weekday.isin([5,6])]
-    # print(validate_holidays(df))
 
+    # # plot data in a notebook
     # plot data
     # plot_time_vol(df)
 
     # create training
     df = create_training_data(df, kpi, start_train, end_train)
 
-    # plot forecast
+    
     # display(df.head())
     m,future = create_forecast(df, periods=int(periods))
     forecast = m.predict(future)
+
+    # # plot forecast in a notebook
     # plot_forecast(forecast)
 
     # set forecast beginning and end date
@@ -62,18 +65,17 @@ def get_pred_score(file_name, kpi, start_train, end_train, periods=365):
     df2 = df1.copy()
     df2['ds'] = pd.to_datetime(df2.index.date) 
 
-    # set start date of validation data equal to June 1st, 2020
+    # set start date of validation data equal to June 1st, 2020 or any other date
     df2 = df2[df2['ds'] >= end_train]
 
-    # remove weekends and holidays
+    # remove weekends and holidays from data
     df2 = df2[~df2.index.isin(h.iloc[:,0].tolist())]
     df2 = df2[~df2.index.weekday.isin([5,6])]
-    if not os.path.exists('./preds/'+kpi):
-        os.mkdir('./preds/'+kpi)
-        return
+    os.makedirs('./preds/'+kpi, exist_ok=True)
+
     forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']].to_csv('./preds/'+kpi+'/'+bu+'.csv')
     
-    # Validate test data
+    # Validate test data, it must match for scoring
     def get_eval():
         if validate_dates(f, df2):
             mae = evaluate_model(f,df2, kpi, metric='mae')
@@ -104,15 +106,20 @@ def get_pred_score(file_name, kpi, start_train, end_train, periods=365):
     print(curr.loc[bu,:])
 
 
-# try:
-#     if sys.argv[1]: 
-#         file_name, kpi, start_train, end_train, periods = (sys.argv[1], 
-#         sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
-#         get_pred_score(file_name, kpi, start_train, end_train, periods=200)
-#     else:
-#         pass
-# except:
-#     print("""
-#     wrong number of arguments, try providing these 5 args:
-#     file_name kpi start_train end_train periods
-#     """)
+def train_predict():
+    """
+    TODO
+    create an api
+    """
+    try:
+        if sys.argv[1]: 
+            file_name, kpi, start_train, end_train, periods = (sys.argv[1], 
+            sys.argv[2], sys.argv[3], sys.argv[4], sys.argv[5])
+            get_pred_score(file_name, kpi, start_train, end_train, periods=200)
+        else:
+            pass
+    except:
+        print("""
+        wrong number of arguments, try providing these 5 args:
+        file_name kpi start_train end_train periods
+        """)
