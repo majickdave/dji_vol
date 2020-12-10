@@ -95,13 +95,10 @@ def validate_dates(f, df2):
     return all(res)
 
 def evaluate_model(f,df2, kpi, metric='mae'):
-    if metric == 'mae':
-        mae1 = mean_absolute_error(df2[kpi], df2[kpi+'_forecast'])
-        mae2 = mean_absolute_error(df2[kpi], f['yhat'])
-        diff = mae1- mae2
-        return {'old': mae1, 'prophet': mae2}
-    else:
-        return 'invalid metric'
+    mae1 = mean_absolute_error(df2[kpi], df2[kpi+'_forecast'])
+    mae2 = mean_absolute_error(df2[kpi], f['yhat'])
+    diff = mae1- mae2
+    return {'old': mae1, 'prophet': mae2}
 
 def validate_holidays(df):
     # validate no weekends or holidays
