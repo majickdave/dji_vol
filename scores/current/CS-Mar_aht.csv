@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-CS-Mar,41.51004254577142,62.006590337282475,aht,2017-11-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+CS-Mar,58.554086123554626,23.515223286349666,aht,2017-11-01,2020-12-01,2020-12-07

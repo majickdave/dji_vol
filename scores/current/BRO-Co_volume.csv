@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-BRO-Co,31.98507462686567,190.99507671448362,volume,2018-10-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+BRO-Co,23.5,16.680325808126653,volume,2018-10-01,2020-12-01,2020-12-07

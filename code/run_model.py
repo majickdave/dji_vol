@@ -81,7 +81,6 @@ def get_pred_score(file_name, kpi, start_train, end_train, periods=365):
     df2 = df2[~df2.index.weekday.isin([5,6])]
     os.makedirs('./preds/'+kpi, exist_ok=True)
 
-    print('\n',kpi,bu,'\n')
     future_forecast=forecast[['ds', 'yhat_lower', 'yhat', 'yhat_upper']][forecast['ds']>datetime.datetime.now()]
 
     future_forecast.to_csv('./preds/'+kpi+'/'+bu+'.csv')
@@ -90,13 +89,13 @@ def get_pred_score(file_name, kpi, start_train, end_train, periods=365):
     # Validate test data, it must match for scoring
     mae = evaluate_model(f,df2, kpi, metric='mae')
 
-    mae.update({'kpi': kpi, 'start_train':start_train, 'end_train': end_train}) 
+    mae.update({'kpi': kpi, 'start_train':start_train, 'end_train': end_train, 'end_test': df1.index.max()}) 
 
     curr = pd.read_csv('scores/'+kpi+'_score.csv',index_col=0)
     new = pd.DataFrame(mae, index=[bu])
 
     new.to_csv('./scores/current/'+bu+'_'+kpi+'.csv')
-    return
+    
     if bu not in curr.index:
         curr = pd.concat([curr, new], 0)
     # create log everytime a score is superceded

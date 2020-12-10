@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-RCS-PH,30819.298507462685,30437.408778017343,handle_time,2018-11-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+RCS-PH,47530.5,8975.816449836377,handle_time,2018-11-01,2020-12-01,2020-12-07

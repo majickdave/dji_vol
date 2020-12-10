@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-RCS-PH,39.74626865671642,42.025143343181,volume,2018-11-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+RCS-PH,51.25,26.538318518847163,volume,2018-11-01,2020-12-01,2020-12-07

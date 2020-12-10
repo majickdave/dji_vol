@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-CS-Joh,51.850746268656714,103.36657100145355,volume,2019-12-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+CS-Joh,37.75,137.70850670720557,volume,2019-12-01,2020-12-01,2020-12-07

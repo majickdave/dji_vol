@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-CS-Ala,65.23066082196279,103.87415701060554,aht,2019-12-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+CS-Ala,108.4474877669785,52.554637606702826,aht,2016-01-01,2020-12-01,2020-12-07

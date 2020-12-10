@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-CS-Ala,12.402985074626866,31.047057479391174,volume,2019-12-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+CS-Ala,6.25,3.3633250726007216,volume,2016-01-01,2020-12-01,2020-12-07

@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-BRO-Co,49.27413525319447,57.84589149395685,aht,2018-10-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+BRO-Co,21.33269029090266,106.71186658263878,aht,2018-10-01,2020-12-01,2020-12-07

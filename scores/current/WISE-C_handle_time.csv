@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-WISE-C,385853.77611940296,287031.0998733641,handle_time,2016-11-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+WISE-C,274309.25,350402.035113757,handle_time,2016-11-01,2020-12-01,2020-12-07

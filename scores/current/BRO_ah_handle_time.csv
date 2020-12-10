@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-BRO_ah,32498.373134328358,88728.99198505175,handle_time,2019-12-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+BRO_ah,28647.5,41821.08484186177,handle_time,2019-12-01,2020-12-01,2020-12-07

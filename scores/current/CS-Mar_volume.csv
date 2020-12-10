@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-CS-Mar,45.88059701492537,51.35819718018214,volume,2017-11-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+CS-Mar,27.75,59.216685352774974,volume,2017-11-01,2020-12-01,2020-12-07

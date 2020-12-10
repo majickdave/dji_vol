@@ -1,2 +1,2 @@
-,old,prophet,kpi,start_train,end_train
-RIS_ah,87.30029598251978,145.72322989471647,aht,2019-11-01,2020-09-01
+,old,prophet,kpi,start_train,end_train,end_test
+RIS_ah,141.55757001902685,22.556253481893094,aht,2019-11-01,2020-12-01,2020-12-07
