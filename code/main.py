@@ -6,14 +6,14 @@ def main():
     """
     TODO
     add tuple to date_dict for different kpis
-    """
-    # load a dataframe
-    df = load_rename('./data/full_dataset.csv')
 
+    Execute model scoring and prediction pipeline
+    """
+    # load the most recent data from excel
+    df = load_rename('./data/full_dataset.csv')
     # create csv for individual business unit
     write_data(df)
-    # date_dict = {'BRO_aht_vol.csv': '2019-11-01', 'WISE-Contractual_aht_vol.csv': '2019-11-01',
-    # 'CS-National_aht_vol.csv'}
+    # when to start training for each business unit
     date_dict = {'BRO-Complex_aht_vol.csv':'2018-10-01', 'BRO_aht_vol.csv': '2018-11-01', 
     'CS-Alaska_aht_vol.csv':'2016-01-01', 'CS-John-Hancock_aht_vol.csv':'2019-12-01', 
     'CS-Maryland_aht_vol.csv': '2017-11-01', 'CS-National_aht_vol.csv':'2016-11-01', 

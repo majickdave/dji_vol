@@ -17312,3 +17312,63 @@ ACTIVITY DATE,DIVISION,BUSINESS UNIT,BUSINESS LINE,Sum of TOTAL TIME - AHT (sec)
 12/7/2020,II Services and Operations,SCS,BRO,324297,355694,534,552,508
 12/7/2020,II Services and Operations,SCS,PSG,844207,1296042,1516,1978,1227
 12/7/2020,II Services and Operations,SCS,BRO-Complex,126727,146714,191,213,178
+12/8/2020,WISE,WISE,WISE Contractual,3841948,4258685,6248,6396,5743
+12/8/2020,College Savings,CS - Direct Sold,CS Alaska,23356,15772,51,37,51
+12/8/2020,College Savings,CS - Direct Sold,CS Maryland,258061,230926,483,472,483
+12/8/2020,College Savings,CS - Direct Sold,CS National,116302,92921,191,204,189
+12/8/2020,College Savings,CS - Intermediary,CS John Hancock,196624,212115,402,446,398
+12/8/2020,II Services and Operations,RIS,RIS,1366467,1901122,2664,2906,2013
+12/8/2020,II Services and Operations,RCS PHONES,RCS PHONES,270013,377072,409,531,387
+12/8/2020,II Services and Operations,SCS,BRO,307684,277926,528,451,482
+12/8/2020,II Services and Operations,SCS,PSG,734738,1086360,1445,1680,1071
+12/8/2020,II Services and Operations,SCS,BRO-Complex,98465,148483,177,217,165
+12/9/2020,WISE,WISE,WISE Contractual,3649630,4004864,5864,6026,5440
+12/9/2020,College Savings,CS - Direct Sold,CS Alaska,19095,12655,38,36,38
+12/9/2020,College Savings,CS - Direct Sold,CS Maryland,237423,191566,443,418,437
+12/9/2020,College Savings,CS - Direct Sold,CS National,80273,62474,164,142,163
+12/9/2020,College Savings,CS - Intermediary,CS John Hancock,182537,198613,388,381,384
+12/9/2020,II Services and Operations,RIS,RIS,1232371,1685664,2350,2617,1874
+12/9/2020,II Services and Operations,RCS PHONES,RCS PHONES,281834,348750,396,499,376
+12/9/2020,II Services and Operations,SCS,BRO,269390,276750,453,429,420
+12/9/2020,II Services and Operations,SCS,PSG,755764,986705,1484,1524,1101
+12/9/2020,II Services and Operations,SCS,BRO-Complex,112384,128885,189,180,173
+12/10/2020,WISE,WISE,WISE Contractual,3429062,3739225,5409,5731,5055
+12/10/2020,College Savings,CS - Direct Sold,CS Alaska,23885,13390,44,35,44
+12/10/2020,College Savings,CS - Direct Sold,CS Maryland,188290,192264,376,421,374
+12/10/2020,College Savings,CS - Direct Sold,CS National,96433,64417,183,160,182
+12/10/2020,College Savings,CS - Intermediary,CS John Hancock,158760,164327,387,366,379
+12/10/2020,II Services and Operations,RIS,RIS,1188628,1621245,2303,2473,1645
+12/10/2020,II Services and Operations,RCS PHONES,RCS PHONES,260538,310376,364,444,348
+12/10/2020,II Services and Operations,SCS,BRO,276732,195808,428,297,404
+12/10/2020,II Services and Operations,SCS,PSG,740444,923937,1226,1468,1080
+12/10/2020,II Services and Operations,SCS,BRO-Complex,100012,99880,168,146,155
+12/11/2020,WISE,WISE,WISE Contractual,3477204,4006257,5430,6052,5125
+12/11/2020,College Savings,CS - Direct Sold,CS Alaska,15901,9867,41,31,40
+12/11/2020,College Savings,CS - Direct Sold,CS Maryland,216010,225435,420,435,416
+12/11/2020,College Savings,CS - Direct Sold,CS National,89511,86351,158,178,158
+12/11/2020,College Savings,CS - Intermediary,CS John Hancock,155393,186864,366,401,362
+12/11/2020,II Services and Operations,RIS,RIS,1332277,1569825,2326,2418,1848
+12/11/2020,II Services and Operations,RCS PHONES,RCS PHONES,252508,324251,366,456,343
+12/11/2020,II Services and Operations,SCS,BRO,257767,230439,441,359,420
+12/11/2020,II Services and Operations,SCS,PSG,740880,918924,1237,1425,1064
+12/11/2020,II Services and Operations,SCS,BRO-Complex,90084,116674,165,171,156
+12/12/2020,WISE,WISE,WISE Contractual,,,0,0,0
+12/12/2020,College Savings,CS - Direct Sold,CS Alaska,,,0,0,0
+12/12/2020,College Savings,CS - Direct Sold,CS Maryland,,,0,0,0
+12/12/2020,College Savings,CS - Direct Sold,CS National,,,0,0,0
+12/12/2020,College Savings,CS - Intermediary,CS John Hancock,,,0,0,0
+12/12/2020,II Services and Operations,RIS,RIS,198906,,357,0,338
+12/12/2020,II Services and Operations,RCS PHONES,RCS PHONES,3551,,9,0,8
+12/12/2020,II Services and Operations,SCS,BRO,,,0,0,0
+12/12/2020,II Services and Operations,SCS,PSG,114841,,167,0,161
+12/12/2020,II Services and Operations,SCS,BRO-Complex,,,0,0,0
+12/13/2020,WISE,WISE,WISE Contractual,,,0,0,0
+12/13/2020,College Savings,CS - Direct Sold,CS Alaska,,,0,0,0
+12/13/2020,College Savings,CS - Direct Sold,CS Maryland,,,0,0,0
+12/13/2020,College Savings,CS - Direct Sold,CS National,,,0,0,0
+12/13/2020,College Savings,CS - Intermediary,CS John Hancock,,,0,0,0
+12/13/2020,II Services and Operations,RIS,RIS,,,0,,0
+12/13/2020,II Services and Operations,RCS PHONES,RCS PHONES,,,0,0,0
+12/13/2020,II Services and Operations,SCS,BRO,,,0,0,0
+12/13/2020,II Services and Operations,SCS,PSG,,,0,0,0
+12/13/2020,II Services and Operations,SCS,BRO-Complex,,,0,0,0
