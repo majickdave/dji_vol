@@ -26,7 +26,7 @@ def main():
         """
         for j, k in enumerate(kpis):
             # set end date for training data for
-            end = ['2020-12-01']*num_bus
+            end = ['2020-12-04']*num_bus
             # set start date for training data
             # start = ['2016-01-01'] *num_bus
             kpi = [k]*num_bus
