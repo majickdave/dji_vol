@@ -18,7 +18,6 @@ def load_rename(path):
             inplace=True)
     # make all col names lower case
     df.columns = [x.lower() for x in df.columns]
-    print(df)
     return df
 
 def write_data(df, group='business line', 
