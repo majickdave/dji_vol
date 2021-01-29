@@ -1,7 +1,7 @@
 # Model Evaluation and Validation
 ## Project: Predicting handle time, volume, and aht
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/majickdave/dji_vol/blob/master/notebooks/model%20cost%20explorer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/majickdave/dji_vol/blob/master/notebooks/RIS%20Prediction%20Analysis.ipynb)
 
 
 ### Install
