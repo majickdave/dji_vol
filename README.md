@@ -40,4 +40,5 @@ This is the volume and handle_time as well as their respective forecasts.
 1. `handle_time`: total daily talk time (seconds)
 2. `aht`: daily average length of call (seconds/call)
 3. `volume`: daily call count
+4. `abandonment_rate`: rate of calls not recieved
 
